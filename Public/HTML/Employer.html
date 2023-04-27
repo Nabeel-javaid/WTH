@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Quiz</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center my-5">Create a Quiz</h1>
+        <!-- Quiz Topic -->
+        <div class="form-group">
+            <label for="quiz-title"><strong>Quiz Title:</strong></label>
+            <input type="text" class="form-control" id="quiz-title" placeholder="Enter the quiz title">
+        </div>
+
+        <!-- Quiz Questions -->
+        <div id="quiz-questions">
+        </div>
+
+        <div class="my-3 text-center">
+            <button id="add-question" class="btn btn-primary">Add Question</button>
+        </div>
+
+        <div class="my-3 text-center">
+            <button id="submit-quiz" class="btn btn-primary">Submit Quiz</button>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>

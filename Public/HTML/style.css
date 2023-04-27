@@ -1,0 +1,119 @@
+/* Custom CSS for JobHub website */
+
+/* Set body background color and font */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the navbar */
+.navbar {
+    background-color: #000000;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler-icon {
+    background-color: #f8f9fa;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    color: #f8f9fa;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #17a2b8;
+}
+
+/* Style the search form */
+#SearchForm {
+    margin-left: auto;
+}
+
+.form-control {
+    border-radius: 25px;
+}
+
+#btnSearch {
+    border-radius: 25px;
+    background-color: #17a2b8;
+    color: #f8f9fa;
+    transition: 0.3s;
+}
+
+#btnSearch:hover {
+    background-color: #138496;
+}
+
+/* Style the section with job list */
+.container {
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: rebeccapurple;
+    margin-bottom: 30px;
+}
+
+.table {
+    margin-top: 30px;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.table th,
+.table td {
+    padding: 15px;
+    text-align: left;
+    font-size: 16px;
+    /* color: rgb(0, 0, 0); */
+    border: none;
+    white-space: nowrap;
+}
+
+.table th {
+    font-weight: bold;
+}
+
+.table tbody tr:hover {
+    background-color: #de6d6d;
+}
+
+/* Style the footer */
+footer {
+    background-color: rebeccapurple;
+    color: #f8f9fa;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .table th,
+    .table td {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
